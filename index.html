@@ -8,9 +8,17 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="intro">
-        <img id="profile-image" src="images/tilak.jpg" alt="virat-kohli-jpg" />
+    <header>
+      <nav>
+        <a href="#about-me">About Me</a
+        ><a href="#qualification">Qualification</a><a href="#hobbies">Hobbies</a
+        ><a href="#technologies">Technologies</a
+        ><a href="#contact-me">Contact Me</a>
+      </nav>
+    </header>
+    <main class="container">
+      <article class="intro">
+        <img id="profile-image" src="images/tilak.jpg" alt="tilak-bhati-jpg" />
         <h1>Hi, I'm Tilak</h1>
         <p>
           I
@@ -65,8 +73,8 @@
             />
           </a>
         </p>
-      </div>
-      <div id="about-me">
+      </article>
+      <section id="about-me">
         <h2>About Me</h2>
         <p>
           A Software Engineer by profession with 1 year of experience in web
@@ -79,26 +87,26 @@
           This website is an attempt to increase my knowledge. I am willing to
           work as web developer for a good product based company.
         </p>
-      </div>
+      </section>
 
-      <div id="qualification">
+      <section id="qualification">
         <h2>Qualification</h2>
         <ol>
           <li>Bachelor of Technology (Computer Science)</li>
           <li>Web Development Bootcamp by Angela Yu</li>
         </ol>
-      </div>
+      </section>
 
-      <div id="hobbies">
+      <section id="hobbies">
         <h2>Hobbies</h2>
         <ul>
+          <li>Cricket</li>
+          <li>Football</li>
           <li>Swimming</li>
-          <li>Listning</li>
-          <li>Drawing</li>
         </ul>
-      </div>
+      </section>
 
-      <div id="technologies">
+      <section id="technologies">
         <h2>Technologies</h2>
         <table>
           <tr>
@@ -122,26 +130,30 @@
             <td>Postgres</td>
           </tr>
         </table>
-      </div>
-    </div>
-    <div id="contact-me">
-      <form name="contact" id="contact" method="POST" data-netlify="true">
-        <h1>Contact Me</h1>
-        <div>
-          <label for="firstName">First name</label>
-          <input type="text" name="firstName" id="firstName" required />
-        </div>
-        <div>
-          <label for="lastName">Last name</label>
-          <input type="text" name="lastName" id="lastName" required />
-        </div>
-        <div>
-          <label for="message">Message</label>
-          <textarea name="message" id="message" cols="30" rows="10"> </textarea>
-        </div>
-        <button type="submit">Submit</button>
-      </form>
-    </div>
+      </section>
+
+      <section id="contact-me">
+        <form name="contact" id="contact" method="POST" data-netlify="true">
+          <h1>Contact Me</h1>
+          <section>
+            <label for="firstName">First name</label>
+            <input type="text" name="firstName" id="firstName" required />
+          </section>
+          <section>
+            <label for="lastName">Last name</label>
+            <input type="text" name="lastName" id="lastName" required />
+          </section>
+          <section>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10">
+            </textarea>
+          </section>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>Made with ❤️ by Tilak Bhati ©2023</footer>
+
     <script src="main.js"></script>
   </body>
 </html>

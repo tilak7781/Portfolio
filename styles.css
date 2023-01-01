@@ -1,17 +1,32 @@
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  padding: 16px;
+}
+header nav > a {
+  margin: 16px;
+}
+
+footer {
+  padding: 16px;
+  text-align: center;
+  border-top: 4px solid;
 }
 
 .container {
   margin: 16px;
 }
 
-.container > div h2 {
+.container > section > h2 {
   text-align: center;
 }
 
@@ -82,4 +97,10 @@ form#contact {
 #contact textarea,
 #contact button {
   width: 100%;
+  font-size: 1.2rem;
+  padding: 8px;
+}
+
+#contact-me {
+  margin-top: 16px;
 }
