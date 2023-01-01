@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tilak's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="intro">
+        <img id="profile-image" src="images/tilak.jpg" alt="virat-kohli-jpg" />
+        <h1>Hi, I'm Tilak</h1>
+        <p>
+          I
+          <span id="dynamic-text" class="dynamic-text-color"></span>
+        </p>
+        <p class="social-links">
+          <a
+            href="https://drive.google.com/file/d/14MHhSL2_JIf0rE_D5AHd7ONZ6Xa8K2oh/view?usp=drivesdk"
+            target="_blank"
+          >
+            <img
+              width="50"
+              height="50"
+              src="images/resume-logo.jpg"
+              alt="resume logo"
+            />
+          </a>
+          <a href="https://github.com/tilak7781" target="_blank">
+            <img
+              width="50"
+              height="50"
+              src="images/github-logo.jpg"
+              alt="github logo"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/tilak-bhati-94b778172/"
+            target="_blank"
+          >
+            <img
+              width="50"
+              height="50"
+              src="images/linkedin-logo.jpg"
+              alt="linkedin logo"
+            />
+          </a>
+          <a href="https://twitter.com/tilak_bhati21" target="_blank">
+            <img
+              width="50"
+              height="50"
+              src="images/twitter-logo.jpg"
+              alt="twitter logo"
+            />
+          </a>
+
+          <a href="https://www.instagram.com/tilakbhati4" target="_blank">
+            <img
+              width="50"
+              height="50"
+              src="images/instagram-logo.jpg"
+              alt="instagram logo"
+            />
+          </a>
+        </p>
+      </div>
+      <div id="about-me">
+        <h2>About Me</h2>
+        <p>
+          A Software Engineer by profession with 1 year of experience in web
+          development.
+        </p>
+        <p>
+          In 2020, I started learning web development for a career prospective.
+        </p>
+        <p>
+          This website is an attempt to increase my knowledge. I am willing to
+          work as web developer for a good product based company.
+        </p>
+      </div>
+
+      <div id="qualification">
+        <h2>Qualification</h2>
+        <ol>
+          <li>Bachelor of Technology (Computer Science)</li>
+          <li>Web Development Bootcamp by Angela Yu</li>
+        </ol>
+      </div>
+
+      <div id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+          <li>Swimming</li>
+          <li>Listning</li>
+          <li>Drawing</li>
+        </ul>
+      </div>
+
+      <div id="technologies">
+        <h2>Technologies</h2>
+        <table>
+          <tr>
+            <th>Frontend</th>
+            <th>Backend</th>
+            <th>Database</th>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>NodeJs</td>
+            <td>MySql</td>
+          </tr>
+          <tr>
+            <td>Css</td>
+            <td>Express Js</td>
+            <td>MongoDb</td>
+          </tr>
+          <tr>
+            <td>JavaScript(React Js)</td>
+            <td>ASP.net</td>
+            <td>Postgres</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="contact-me">
+      <form name="contact" id="contact" method="POST" data-netlify="true">
+        <h1>Contact Me</h1>
+        <div>
+          <label for="firstName">First name</label>
+          <input type="text" name="firstName" id="firstName" required />
+        </div>
+        <div>
+          <label for="lastName">Last name</label>
+          <input type="text" name="lastName" id="lastName" required />
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="30" rows="10"> </textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
