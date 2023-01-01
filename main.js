@@ -40,3 +40,7 @@ function clearLetters() {
 }
 
 PrintLetters(phrases[phraseIndex]);
+
+var date = new Date().getFullYear();
+
+document.getElementById("year").innerHTML = date;
