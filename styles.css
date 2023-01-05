@@ -154,6 +154,7 @@ section.menu {
     top: 0;
     z-index: 1;
     background: hsl(0, 0%, 100%);
+    transition: height 0.8s ease-in-out;
   }
 
   section.menu ul {
