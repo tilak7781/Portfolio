@@ -1,9 +1,10 @@
 const dynamicContent = document.getElementById("dynamic-text");
 
 const phrases = [
-  "am Software Engineer...",
-  "love Frontend Development...",
-  "love Backend Development...",
+  "Am Software Engineer...",
+  "Love Web Development...",
+  "Love Frontend Development...",
+  "Love Backend Development...",
 ];
 let phraseIndex = 0;
 let letterIndex = 0;
