@@ -45,3 +45,12 @@ PrintLetters(phrases[phraseIndex]);
 var date = new Date().getFullYear();
 
 document.getElementById("year").innerHTML = date;
+
+window.addEventListener("scroll", function () {
+  let intro = this.document.querySelector(".intro");
+  if (this.window.scrollY >= intro.offsetHeight + intro.offsetTop) {
+    this.document.querySelector(".header").style.position = "sticky";
+  } else {
+    this.document.querySelector(".header").style.position = "revert";
+  }
+});
